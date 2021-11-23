@@ -13,7 +13,7 @@ namespace IndianCensusAnalyser.DataDAO
         public int tin;
         public string stateCode;
 
-        public StateCodeDataDAO(string stateName,string serialNumber,string tin,string stateCode)
+        public StateCodeDataDAO(string serialNumber,string stateName,string tin,string stateCode)
         {
             this.serialNumber = Convert.ToInt32(serialNumber);
             this.stateName = stateName;
