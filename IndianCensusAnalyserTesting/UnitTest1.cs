@@ -20,7 +20,7 @@ namespace IndianCensusAnalyserTesting
         string delimiterStateCodePath = @"D:\.net\IndianCensusAnalyser\IndianCensusAnalyser\CSVFiles\DelimiterIndiaStateCode.csv";
         string delimiterStateCensusPath = @"D:\.net\IndianCensusAnalyser\IndianCensusAnalyser\CSVFiles\DelimiterIndiaStateCensusData.csv";
         IndianCensusAnalyser.CSVAdapterFactory csv = null;
-        public Dictionary<string, CensusDTO> stateRecords;
+        Dictionary<string, CensusDTO> stateRecords;
 
         [SetUp]
         public void SetUp()

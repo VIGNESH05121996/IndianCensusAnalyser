@@ -21,9 +21,8 @@ namespace IndianCensusAnalyser
 
             censusData = File.ReadAllLines(csvFilePath);
             if(censusData[0] != dataHeaders)
-            {
                 throw new CensusAnalyserException("Incorrect headerin Data", CensusAnalyserException.Exception.INCORRECT_HEADER);
-            }
+
             return censusData;
         }
     }
